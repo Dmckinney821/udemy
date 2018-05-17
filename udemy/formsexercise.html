@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+
+<h1>Register</h1>
+<form>
+	<label for="first">First Name:</label>
+	<input name='first' id='first' type="text" placeholder="John" required>
+	<label for='last'>Last Name</label>
+	<input name='second' id='last' type="text" placeholder="Smith" required>
+	<div>
+		<label for='Male'>Male</label>
+		<input id='Male' name='gender' type="radio" name="Male">
+		<label for='Female'>Female</label>
+		<input id='Female' name='gender' type="radio" name="Female">
+		<label for='Other'>Other</label>
+		<input for='Other' name='gender' type="radio" name="Other">
+	</div>
+	<div>
+		<label>Email: 
+		<input name='email' ="email" placeholder="Your email" required>
+		</label>
+		<label>Password: 
+		<input name='password' type="password" placeholder='password' required>
+		</label>
+	</div>
+	<div>
+		<label>Birthday:</label>
+	<select name="Month">
+		<option value="January">Month</option>
+		<option value="February">February</option>
+		<option value="nuetral">:/</option>
+	</select>
+	<select name="Day">
+		<option value="1">Day</option>
+		<option value="2">2</option>
+		<option value="3">"3</option>
+	</select>
+	<select name="Year">
+		<option value="January">January</option>
+		<option value="February">February</option>
+		<option value="nuetral">:/</option>
+	</select>
+	</div>
+	<div>
+		<label>I agree to the terms and conditions:</label>
+		<input type="Checkbox" name="">
+	</div>
+
+<button>Submit</button>
+</form>
+
+
+</body>
+</html>

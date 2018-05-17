@@ -1,0 +1,16 @@
+h1	{
+	text-align: center;
+
+}
+td {
+	width, height: 100px;
+	background: pink;
+}
+tr {
+	border: solid 5px black;
+}
+
+.vertical {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
